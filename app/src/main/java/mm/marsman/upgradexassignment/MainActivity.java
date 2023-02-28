@@ -29,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
         slideModels.add(new SlideModel(R.drawable.img2, ScaleTypes.FIT));
         slideModels.add(new SlideModel(R.drawable.img3, ScaleTypes.FIT));
         slideModels.add(new SlideModel(R.drawable.img4, ScaleTypes.FIT));
+        slideModels.add(new SlideModel(R.drawable.img4, ScaleTypes.FIT));
+        slideModels.add(new SlideModel(R.drawable.img4, ScaleTypes.FIT));
 
         imageSlider.setImageList(slideModels, ScaleTypes.FIT);
 
